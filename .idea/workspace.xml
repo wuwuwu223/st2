@@ -1,35 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0202048a-eecb-42d7-9c89-549f79e8a444" name="Changes" comment="" />
+    <list default="true" id="0202048a-eecb-42d7-9c89-549f79e8a444" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/st2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/st2.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="TriangleTest.testWorstCaseGeneralBoundaryValues" />
+    </enabled-run-configurations>
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;minikube&quot;,
+      &quot;originalNamespace&quot;: &quot;default&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="minikube" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2dXpMfKd05VhE2RcOXTiWwRcb9L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/mzfqy/IdeaProjects/st2/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.TriangleTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.TriangleTest.testGeneralBoundaryValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TriangleTest.testRobustBoundaryValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TriangleTest.testWorstCaseGeneralBoundaryValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TriangleTest.testWorstCaseRobustBoundaryValues.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mzfqy/IdeaProjects/st2/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.TriangleTest">
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.testGeneralBoundaryValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="METHOD_NAME" value="testGeneralBoundaryValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.testRobustBoundaryValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="METHOD_NAME" value="testRobustBoundaryValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.testWorstCaseGeneralBoundaryValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="METHOD_NAME" value="testWorstCaseGeneralBoundaryValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.testWorstCaseRobustBoundaryValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="METHOD_NAME" value="testWorstCaseRobustBoundaryValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.TriangleTest.testWorstCaseGeneralBoundaryValues" />
+        <item itemvalue="JUnit.TriangleTest.testWorstCaseRobustBoundaryValues" />
+        <item itemvalue="JUnit.TriangleTest.testRobustBoundaryValues" />
+        <item itemvalue="JUnit.TriangleTest.testGeneralBoundaryValues" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-995e55e7" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,21 +151,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710164230734</updated>
+      <workItem from="1710164231814" duration="1986000" />
+      <workItem from="1710749929321" duration="292000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/st2$TriangleTest.ic" NAME="TriangleTest Coverage Results" MODIFIED="1710165501121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,15 +1,25 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+public class Triangle {
+    private boolean isTriangle(int a, int b, int c) {
+        return a + b > c && a + c > b && b + c > a;
+    }
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+    private boolean isValidInput(int a, int b, int c) {
+                return a >= 1 && a <= 100 && b >= 1 && b <= 100 && c >= 1 && c <= 100;
+    }
+
+    public String calculateType(int a, int b, int c) {
+        String triangleType;
+        if (!isValidInput(a, b, c)) {
+            triangleType = "输入错误";
+        } else if (!isTriangle(a, b, c)) {
+            triangleType = "非三角形";
+        } else if (a == b && b == c) {
+            triangleType = "等边三角形";
+        } else if (a == b || a == c || b == c) {
+            triangleType = "等腰三角形";
+        } else {
+            triangleType = "一般三角形";
         }
+        return triangleType;
     }
 }
